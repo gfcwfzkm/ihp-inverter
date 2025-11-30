@@ -1,3 +1,0 @@
-| units: 0.5 tech: ihp-sg13g2 format: MIT
-x A VSS Y VSS s=4080,256 d=4080,256 l=90 w=60 x=625 y=450 sg13_hv_nmos
-x A VDD Y VDD s=4080,256 d=4080,256 l=90 w=60 x=625 y=1158 sg13_hv_pmos
