@@ -1,0 +1,25 @@
+scale 1000 1 0.5
+rnode "VDD.t1" 0 0 625 1188 0
+rnode "VDD.t0" 0 0 753 1496 0
+rnode "VDD.n0" 0 0 587 1496 0
+rnode "VDD" 0 0 509 1466 0
+resist "VDD" "VDD.n0" 0.0626277
+resist "VDD.n0" "VDD.t0" 11.3728
+resist "VDD.n0" "VDD.t1" 17.9556
+rnode "Y.t1" 0 0 715 1188 0
+rnode "Y.t0" 0 0 715 480 0
+rnode "Y" 0 0 795 829 0
+resist "Y" "Y.t1" 18.0947
+resist "Y" "Y.t0" 18.1424
+rnode "VSS.t1" 0 0 625 480 0
+rnode "VSS.t0" 0 0 670 480 0
+rnode "VSS.n0" 0 0 587 292 0
+rnode "VSS" 0 0 503 207 0
+resist "VSS" "VSS.n0" 0.108706
+resist "VSS.n0" "VSS.t1" 17.6462
+resist "VSS.n0" "VSS.t0" 1473.46
+rnode "A.t0" 0 0 670 1188 0
+rnode "A" 0 0 566 829 0
+resist "A" "A.t0" 15.0223
+device msubckt sg13_hv_pmos 625 1158 626 1159  "VDD.t0" "A.t0" 180 0 "VDD.t1" 60 4080,256 "Y.t1" 60 4080,256
+device msubckt sg13_hv_nmos 625 450 626 451  "VSS.t0" "A.t0" 180 0 "VSS.t1" 60 4080,256 "Y.t0" 60 4080,256

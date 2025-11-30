@@ -1,0 +1,9 @@
+# Logfile created on 2025-11-30 16:47:19 +0100 by logger.rb/v1.5.3
+2025-11-30 16:47:19 +0100: Memory Usage (436796K) : Starting running IHP-SG13G2 Klayout DRC maximum runset on /foss/designs/mse-pa1/klayout/inverter.gds
+2025-11-30 16:47:19 +0100: Memory Usage (436796K) : Ruby Version for klayout: 3.2.3
+2025-11-30 16:47:19 +0100: Memory Usage (438040K) : Loading database to memory is complete.
+2025-11-30 16:47:19 +0100: Memory Usage (438040K) : IHP-SG13G2 Klayout DRC maximum runset output at: /foss/designs/mse-pa1/klayout/drc_run_inverter/inverter_inverter_sg13g2_maximal.lyrdb
+2025-11-30 16:47:19 +0100: Memory Usage (438040K) : Evaluate switches.
+2025-11-30 16:47:19 +0100: Memory Usage (438040K) : Klayout will use 1 thread(s)
+2025-11-30 16:47:19 +0100: Memory Usage (438040K) : deep mode is enabled for sg13g2_maximal runset.
+2025-11-30 16:47:21 +0100: Memory Usage (471408K) : KLayout DRC run for maximum ruleSet completed in 2.25 seconds
