@@ -18,3 +18,7 @@ The [inverter schematic](inverter.pdf), [testbench schematic](tb_inverter.pdf) a
 ## Tools
 
 This project uses the [IIC-OSIC-TOOLS Docker Container](https://github.com/iic-jku/IIC-OSIC-TOOLS) (Release 2025.11) and the files / repository assumes to be extracted in the base design folder (`/foss/designs/ihp-inverter`).
+
+## NOTES
+
+The testbench assumes that the extracted spice netlist from the layout has been renamed from `inverter.spice` to `inverter_ext.spice`. This is something that has to be performed **manually** after performing PEX with magic.
