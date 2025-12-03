@@ -13,9 +13,15 @@ The [inverter schematic](inverter.pdf), [testbench schematic](tb_inverter.pdf) a
 | Draw inverter in KLayout | ✅ |
 | Layout passes DRC checks | ✅ |
 | Extract SPICE from Layout | ✅ |
-| Extracted design matches Schematic in Testbench | ❌ |
+| Extracted design matches Schematic in Testbench | ✅ |
 
 ## Tools
 
 This project uses the [IIC-OSIC-TOOLS Docker Container](https://github.com/iic-jku/IIC-OSIC-TOOLS) (Release 2025.11) and the files / repository assumes to be extracted in the base design folder (`/foss/designs/ihp-inverter`).
 
+To get the parasitic extraction from magic, a tcl script is provided and can be executed with
+```bash
+cd klayout
+cat magic_pex.tcl | magic -rcfile /foss/pdks/ihp-sg13g2/libs.tech/magic/ihp-sg13g2.magicrc -noconsole -dnull
+```
+in the command line.
